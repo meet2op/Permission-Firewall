@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Permission Firewall",
+  "description": "Blocks camera, microphone, and location access by default.",
+  "version": "0.1",
+  "permissions": [
+    "contentSettings",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}
+
